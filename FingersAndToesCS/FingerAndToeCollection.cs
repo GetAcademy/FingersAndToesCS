@@ -2,8 +2,8 @@
 {
     class FingerAndToeCollection
     {
-        public string[] Names { get; } = { "lille", "ring", "midt", "peke", "tommel", "storetå" };
-        public FingerOrToe[] FingersAndToes { get; } = {
+        public string[] Names = { "lille", "ring", "midt", "peke", "tommel", "storetå" };
+        public FingerOrToe[] FingersAndToes = new FingerOrToe[] {
             new FingerOrToe { IsLeftSide = true, Index = 0, Type = 0 },
             new FingerOrToe { IsLeftSide = true, Index = 1, Type = 0 },
             new FingerOrToe { IsLeftSide = true, Index = 2, Type = 0 },

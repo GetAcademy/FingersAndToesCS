@@ -2,9 +2,9 @@
 {
     class FingerOrToe
     {
-        public bool IsLeftSide { get; set; }
-        public int Index { get; set; }
-        public int Type { get; set; }
-        public bool IsDone { get; set; }
+        public bool IsLeftSide;
+        public int Index;
+        public int Type;
+        public bool IsDone;
     }
 }
